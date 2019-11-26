@@ -8,5 +8,4 @@ I used an API key for the movie library by www.omdbapi.com
 
 npm start
 
-![Alt Text](demo-pics-gifs/movie-search.mp4)
 
