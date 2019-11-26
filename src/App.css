@@ -1,17 +1,19 @@
 .App {
   text-align: center;
+  background-color: #191a1d;
+  color: white;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: black;
   height: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-  padding: 20px;
+  color: grey;
+  padding: 50px;
   cursor: pointer;
 }
 
@@ -22,6 +24,8 @@
 
 .App-intro {
   font-size: large;
+  margin-top: 30px;
+  color: white;
 }
 
 /* new css for movie component */
@@ -52,7 +56,7 @@
 
 .movie {
   padding: 5px 25px 10px 25px;
-  max-width: 25%;
+  max-width: 20%;
 }
 
 .errorMessage {
@@ -67,30 +71,38 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 
 input[type="submit"] {
   padding: 5px;
   background-color: transparent;
-  color: black;
-  border: 1px solid black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 20px;
   width: 80px;
   margin-left: 5px;
+  font-size: 12px;
   cursor: pointer;
 }
 
 
 input[type="submit"]:hover {
-  background-color: #282c34;
-  color: antiquewhite;
+  background-color: white;
+  color: #282c34;
 }
 
 
 .search > input[type="text"]{
   width: 40%;
   min-width: 170px;
+  border: 0px;
+  border-radius: 20px;
+  padding: 5px 10px;
+  font-size: 14px;
+  margin-right: 10px;
+
 }
 
 @media screen and (min-width: 694px) and (max-width: 915px) {
